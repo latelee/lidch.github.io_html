@@ -1,0 +1,180 @@
+/* 轮播图 */
+.carousel {
+	height: 580px;
+	background-color: #000;
+}
+.carousel .item {
+	background-color: #000;
+	height: 580px;
+}
+/*这里img不用设置高度*/
+.carousel img{
+	margin: auto;
+	width: 100%;
+}
+.carousel-caption{
+	margin-bottom: 32px;
+}
+.carousel-indicators {
+	margin-bottom: 32px;
+}
+
+.pc_imgBox{
+    display: block;
+    height: 100%;
+    padding-top: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.m_imgBox{
+    display: block;
+    width: 100%;
+    padding-top: 10%;
+}
+        
+/* 功能块 */
+.panel {
+	width: 100px;
+	height: 110px;
+	text-align: center;
+	margin: auto;
+	font-size: 16px;
+}
+
+.div_function {
+	width: 78%;
+	margin: auto;
+	margin-top: -50px;
+}
+
+.div_function1 {
+	width: 78%;
+	margin: auto;
+	margin-top: 80px;
+}
+
+.iv_function {
+	width: 60px;
+	height: 60px;
+	margin-top: 6px;
+}
+
+/* 分割线 */
+.div_divider {
+	margin-top: 24px;
+	color: #34374C;
+}
+.hr_1 {
+	width: 50px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.hr_2 {
+	width: 70%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* 文章列表 */
+.div_article {
+	margin-top: 24px;
+}
+
+/* 文章顶部栏 */
+.item_article_first {
+	background-color: #34374C !important;
+	border-color: #34374C !important;
+}
+
+.item_article {
+	min-height: 120px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+}
+
+.item_article .row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+}
+
+.div_center {
+    height: auto;
+    max-height: 140px;
+    overflow: hidden;
+}
+
+.div_article_title {
+	font-size: 22px;
+}
+
+.div_article_content {
+	color: #a0a0a0;
+    word-wrap:break-word;
+    word-break:break-all;
+	width: 100%;
+}
+
+.iv_article {
+	width: 88px;
+	height: 88px;
+	margin: auto;
+}
+
+.div_right_info {
+	text-align: right;
+}
+
+/* 随手记 */
+.div_record {
+	margin-top: 24px;
+}
+
+.div_save {
+	text-align: right;
+}
+
+.btn_save_record {
+	width: 100%;
+	background-color: #34374C;
+	border-color: #34374C;
+}
+
+/* 小功能列表 */
+.btn-cricle {
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+	text-align: center;
+}
+
+.div_little_func .col-xs-4{
+	text-align: center;
+}
+
+/* 右下角按钮 */
+.btn_right_bottom {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+}
+
+/* 用户信息 */
+.div_userinfo {
+    background-color: #34374C;
+	color: white;
+	padding: 12px 24px 12px 24px !important;
+}
+
+.iv_user_head {
+	width: 48px;
+	height: 48px;
+}
