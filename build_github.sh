@@ -30,7 +30,7 @@ git config user.name  "Late Lee"
 git config user.email "li@latelee.org"
 git add .
 git commit -m "CI auto update"
-git push --force --quiet "https://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@github.com/latelee/lidch.github.io_html.git" master:master || exit 1
+git push --force --quiet "https://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@github.com/latelee/lidch.github.io_html.git" master:master || exit 1
 cd -
 
 exit
